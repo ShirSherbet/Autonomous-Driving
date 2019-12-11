@@ -3,7 +3,7 @@ CSC420 Project
 
 Demo 
 ===========
-See report.pdf !!!!!!!!!!!!!!!!!!!!
+See https://github.com/ShirSherbet/Autonomous-Driving/blob/master/report.pdf
 
 Require packages:
 ===========
