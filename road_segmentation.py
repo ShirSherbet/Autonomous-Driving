@@ -224,7 +224,7 @@ def train_road_classifier(md, optimizer, trainloader, criterion):
 
     # Save the weights.
     print("\nSaving the model")
-    torch.save(md.state_dict(), os.path.join('./data/train/results-dets', 'md.pth'))
+    torch.save(md.state_dict(), 'md.pth')
 
 # testing visualization
 def visualize_segmentation(boundary):
@@ -309,8 +309,8 @@ if __name__ == "__main__":
     md = CNN_LSTM().float()
     cmd = CNN_LSTM().float()
 
-    md.load_state_dict(torch.load(os.path.join('./data/train/results-dets', 'md.pth')))
-    cmd.load_state_dict(torch.load(os.path.join('./data/train/results-dets', 'md.pth')))
+    md.load_state_dict(torch.load('md.pth'))
+    cmd.load_state_dict(torch.load('md.pth'))
 
     image = Image.open('./data/test/image_left/uu_000041.jpg').convert('RGB')
     img_s = image.size
