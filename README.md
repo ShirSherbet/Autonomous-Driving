@@ -7,11 +7,17 @@ See https://github.com/ShirSherbet/Autonomous-Driving/blob/master/report.pdf
 Require packages:
 ===========
 - python 3.6.8
-- pytorch 0.4.1
+- torch 1.3.1
+- torchvision 0.4.2
+- Keras 2.3.1
 - tensorflow 1.12.0
-- Open3D
-- numpy
+- Pillow 6.1.0
+- open3d 0.8.0.0
+- matplotlib 3.1.2
+- webcolors 1.10
+- numpy 1.17.4
 - scipy
+- scikit-image 0.15.0
 - opencv3.4.3   !!!!!!!!!!!!!!!!!!!!!!!
 
 Data folder structure
