@@ -10,7 +10,7 @@ Require packages:
 - torch 1.3.1
 - torchvision 0.4.2
 - Keras 2.3.1
-- tensorflow 1.12.0
+- tensorflow 2.0.0
 - Pillow 6.1.0
 - open3d 0.8.0.0
 - matplotlib 3.1.2
@@ -18,7 +18,7 @@ Require packages:
 - numpy 1.17.4
 - scipy
 - scikit-image 0.15.0
-- opencv3.4.3   !!!!!!!!!!!!!!!!!!!!!!!
+- opencv3.4.2
 
 Data folder structure
 ========
@@ -96,3 +96,10 @@ current scripts for each subtasks:
     ```
     This file loads pre-trained model
 
+Contributers:
+==========
+<table>
+  <tr>
+    <td align="center"><a href="https://kentcdodds.com"><img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;" alt="Kent C. Dodds"/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href="#question-kentcdodds" title="Answering Questions">💬</a> <a href="https://github.com/all-contributors/all-contributors/commits?author=kentcdodds" title="Documentation">📖</a></td>
+   </tr>
+</table>
